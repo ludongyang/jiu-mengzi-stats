@@ -1,0 +1,26 @@
+{
+  "name": "jiu-mengzi-api",
+  "version": "1.0.0",
+  "description": "酒蒙子协会数据同步API",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "dev": "nodemon index.js",
+    "deploy": "vercel --prod"
+  },
+  "dependencies": {
+    "express": "^4.18.2",
+    "@octokit/rest": "^19.0.7",
+    "cors": "^2.8.5",
+    "dotenv": "^16.0.3",
+    "helmet": "^7.0.0",
+    "express-rate-limit": "^6.10.0",
+    "body-parser": "^1.20.2"
+  },
+  "devDependencies": {
+    "nodemon": "^3.0.1"
+  },
+  "engines": {
+    "node": ">=16.0.0"
+  }
+}

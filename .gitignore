@@ -1,0 +1,7 @@
+# 排除后端本地环境变量文件
+backend/.env.local
+# 可选：排除node_modules（依赖包，体积大，Vercel会自动安装）
+node_modules/
+# 可选：排除本地日志、缓存文件
+*.log
+.DS_Store
